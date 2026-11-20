@@ -1,0 +1,10 @@
+joblib
+ipykernel
+matplotlib
+numpy
+pandas
+scikit-learn
+seaborn
+streamlit
+# TensorFlow wheels require supported CPython and Windows AMD64; the ARM64 environment skips it.
+tensorflow; platform_machine == "AMD64" and python_version < "3.14"

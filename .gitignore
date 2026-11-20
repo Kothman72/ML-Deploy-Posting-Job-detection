@@ -1,0 +1,21 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter-generated files
+.ipynb_checkpoints/
+
+# Local data and generated predictions
+*.csv
+*.zip
+submission.csv
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
